@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://images.template.net/wp-content/uploads/2014/09/Beautiful-Background-Wallpaper-Copy.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/online/RcG.jpg">
+    <h1>Rabiat's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">lifestyle</a></li>
+      <li><a href="#">daily routines</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>laughter is the best medicine</h2>
+    <p> This saying never gets old. this is referring to laughter as an actual medicine but it really doeas cure a lot of illnesses. Laughter can cure an aching heart, a depressed soul, and i could go on and on...and hey! it is really cheap, and there is no overdose...so make sure you get a tremendous amount of laughter; 3 times a day. lol! </p>    
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Let your hygiene slay too</h2>
+    <p> most people now adays only really care about their faces and how beautifully made up it is...for this reason, your girl will be preaching about hygiene today. okay lets go, whats the point of havinga beautifully contoured face and a messed up "internal environment? and no, this doesnt just for the ladies...the guys are guilty too... </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>dress as you would want to be adressed</h2>
+    <p>hey! if you step out of your house dressed like a nun, doctor,banker,pastor,teacher,lawyer, etc, you be adressed as these we have listed. in the same vain, when you step out of the house looking like a stripper, mentally-ill patient, dumpsite picker,gangta and you know...some other not-so-sane-fellow...then trust me, you will be adressed as such. so, now you know, please dress well my people, especiall m sisers. thanks</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
 
